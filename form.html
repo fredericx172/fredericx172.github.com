@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+    <head>
+      
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animated.css">
+        <link rel="stylesheet" href="style.js">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        
+<link href="https://fonts.googleapis.com/css?family=Tomorrow:500&display=swap" rel="stylesheet">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/c866dfbc08.js" crossorigin="anonymous"></script>
+
+
+
+
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+        <title class="ok">Epsilon Hacks</title>
+        <link rel="shortcut icon" href="logo.png"/>
+
+
+    </head>
+    
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                  <div class="animated jackInTheBox delay-1s">
+                    <a href=".ok">Epsilon Hacks</a>
+                    </div>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <div class="animated jackInTheBox delay-1s">
+                    <ul class="navlinks">
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#FAQ">FAQs</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#sponsor">Sponsors</a></li>
+               <!--         <li><a href="#Schedule">Schedule</a></li> -->
+                        <li><a href="form.html" target="_blank" id="button">Register</a></li>
+
+                    </ul>
+                </div>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+
+
+
+
+
+        <section class="home">
+          <div class="animated jackInTheBox delay-1s">
+              <div class="lgo">
+            <img src="logo.png">
+            </div>
+            
+            <div class="animated rubberBand delay-1s">
+            <div class="tag">
+              <h4>Solving Tomorrow's Problems Today</h4>
+              
+            </div>
+          </div>
+          </div>
+        </div>
+          
+
+
+
+
+
+
+          <div class="waves">
+              <svg width="100%" height="200px" fill="none" version="1.1"
+               xmlns="http://www.w3.org/2000/svg">
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#00B4DB" />
+                  <stop offset="50%" stop-color="#224488" />
+                  <stop offset="100%" stop-color="#0083B0" />
+                </linearGradient>
+                <path 
+                  fill="url(#grad1)" 
+                  d="
+                    M0 67
+                    C 273,183
+                      822,-40
+                      1920.00,106 
+                    
+                    V 359 
+                    H 0 
+                    V 67
+                    Z">
+                  <animate 
+                    repeatCount="indefinite" 
+                    fill="url(#grad1)" 
+                    attributeName="d" 
+                    dur="15s"
+                    attributeType="XML"
+                    values="
+                      M0 77 
+                      C 473,283
+                        822,-40
+                        1920,116 
+                      
+                      V 359 
+                      H 0 
+                      V 67 
+                      Z; 
+          
+                      M0 77 
+                      C 473,-40
+                        1222,283
+                        1920,136 
+                      
+                      V 359 
+                      H 0 
+                      V 67 
+                      Z; 
+          
+                      M0 77 
+                      C 973,260
+                        1722,-53
+                        1920,120 
+                      
+                      V 359 
+                      H 0 
+                      V 67 
+                      Z; 
+          
+                      M0 77 
+                      C 473,283
+                        822,-40
+                        1920,116 
+                      
+                      V 359 
+                      H 0 
+                      V 67 
+                      Z
+                      ">
+                  </animate>
+                </path>
+              </svg>
+            </div>
+          
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        
+        </section>
+        
+    <section id="Location-date">
+      <p id="pressure">Location: TBD <br> Date: March 15-16</p>
+
+    </section>
+    <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+<section id="About">
+  <div class="text">
+      <h1 class="he">About</h1>
+<p class="abt"> EpsilonHacks is a hackathon ran by students from the Fremont Unified School District who aim to 
+  give students the chance to experience the Bay Area in its fullest. Our mission is to be 
+  able to give students the opportunity to work alongside students they normally would not be able to, at least in a school environment. We want to challenge their minds to the best of their ability and give them that small push they need in order to create something extraordinary, 
+  something they didn’t even know they can do.</p>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+<section id="FAQ">
+    <h3 class="faqTitle">FAQs</h3>
+
+<p class="accordion">Who can attend?</p>
+<div class="panel">Any high school student can attend! Absolutely no coding experience necessary! </div>
+
+<p class="accordion">How do I form or join a team?</p>
+<div class="panel">There will be a team mixer at the beginning of the hackathon for you to meet others and form teams. We encourage you to 
+  come and meet new people! Each team may have a maximum of four people. </div>
+
+<p class="accordion">Does this cost money?</p>
+<div class="panel">No! Epsilon Hacks is completely free for all participants—food, swag, 
+  and other costs are covered.</div>
+
+<p class="accordion">What should I bring?</p>
+<div class="panel">Please bring a water bottle, a water bottle, laptop, chargers, and the signed waiver.
+  Sleeping bag and toileteries are highly recommended as it's overnight.
+</div>
+
+<p class="accordion">What if I have dietary restrictions??</p>
+<div class="panel">No problem! If you have dietary restrictions, simply add them to your application 
+  when you register, and we will accommodate you!</div>
+
+<p class="accordion"> What if I can't code?</p>
+<div class="panel">No problem! Experience isn't required to attend. Moreover, we will have various worksh
+  ops where you can learn!
+    </div>
+
+<p class="accordion">What if I have another question?</p>
+<div class="panel">Feel free to reach out to us at epsilonhacks@gmai.com! We will get back to you ASAP!</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) { 
+  
+  
+  var acc = document.getElementsByClassName("accordion");
+  var panel = document.getElementsByClassName('panel');
+  
+  for (var i = 0; i < acc.length; i++) {
+      acc[i].onclick = function() {
+          var setClasses = !this.classList.contains('active');
+          setClass(acc, 'active', 'remove');
+          setClass(panel, 'show', 'remove');
+  
+          if (setClasses) {
+              this.classList.toggle("active");
+              this.nextElementSibling.classList.toggle("show");
+          }
+      }
+  }
+  
+  function setClass(els, className, fnName) {
+      for (var i = 0; i < els.length; i++) {
+          els[i].classList[fnName](className);
+      }
+  }
+  
+  });
+  </script>
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+<section id="team">
+  <div class="team-section">
+    <div class="inner-width">
+      <h1>Meet Our Team</h1>
+    <div class="pers">
+
+
+        <div class="pe">
+            <img src="Annie.JPG" alt="arjun">
+            <div class="p-name">Annie Liu</div>
+            <div class="p-des">Co-Executive Director</div>
+            <div class="p-sm">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/annieliu17/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+
+
+        <div class="pe">
+            <img src="Frede.JPG" alt="arjun">
+            <div class="p-name">Frederic Xiong</div>
+            <div class="p-des">Co-Executive Director</div>
+            <div class="p-sm">
+              <a href="https://github.com/Fredericx172" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/frederic-xiong-980462168/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="pe">
+            <img src="kevin.jpg" alt="arjun">
+            <div class="p-name">Kevin Wang</div>
+            <div class="p-des">Co-Executive Director</div>
+            <div class="p-sm">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/itskevinwang/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="#mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="pe">
+            <img src="raj.jpg" alt="arjun">
+            <div class="p-name">Raj Nawal</div>
+            <div class="p-des">Co-Executive Director</div>
+            <div class="p-sm">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="#mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+
+      <div class="pe">
+        <img src="arjun.jpg" alt="arjun">
+        <div class="p-name">Arjun Balaji</div>
+        <div class="p-des">Director of Tech</div>
+        <div class="p-sm">
+          <a href="https://github.com/arjun37602" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/arjun-balaji-4019a9191/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:arjun37602@gmail.com.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+
+      <div class="pe">
+          <img src="ahmad.jpg" alt="arjun">
+          <div class="p-name">Ahmad Zayan</div>
+          <div class="p-des">Tech</div>
+          <div class="p-sm">
+            <a href="https://github.com/ahmadzayan86" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ahmad-zayan-b58b7918a" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+              
+              <div class="pe">
+                  <img src="arnav.jpg" alt="arjun">
+                  <div class="p-name">Arnav Pradhan</div>
+                  <div class="p-des">Director of Outreach</div>
+                  <div class="p-sm">
+                    <a href="https://github.com/arnavpradhan21" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="linkedin.com/in/arnav-pradhan-a22649194" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                  </div>
+                </div>
+
+                
+                <div class="pe">
+                    <img src="sama.jpg" alt="arjun">
+                    <div class="p-name">Sama Setty</div>
+                    <div class="p-des">Outreach</div>
+                    <div class="p-sm">
+                      <a href="github.com/samasetty" target="_blank"><i class="fab fa-github"></i></a>
+                      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                      <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </div>
+                  </div>
+
+                  
+                  <div class="pe">
+                      <img src="Anagha.jpeg" alt="arjun">
+                      <div class="p-name">Anagha Balaji</div>
+                      <div class="p-des">Outreach</div>
+                      <div class="p-sm">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="linkedin.com/in/anagha-balaji-820277198" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                      </div>
+                    </div>
+
+
+                <div class="pe">
+                        <img src="lauren.jpg" alt="arjun">
+                       <div class="p-name">Lauren Hur</div>
+                       <div class="p-des">Director of Operations</div>
+                       <div class="p-sm">
+                         <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                         <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                         <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                     </div>
+                   </div>
+
+
+                  <div class="pe">
+                      <img src="maxine.jpg" alt="arjun">
+                      <div class="p-name">Maxine Wu</div>
+                      <div class="p-des">Operations</div>
+                      <div class="p-sm">
+                        <a href="https://github.com/maxinewu5" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/maxine-w-5b6076197/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                      </div>
+                    </div>
+
+                 <div class="pe">
+                   <img src="Fredz.jpg" alt="arjun">
+                  <div class="p-name">Frederick Zhang</div>
+                  <div class="p-des">Operations</div>
+                  <div class="p-sm">
+                    <a href="https://github.com/Fredenck/" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/frederick-zhang-502866103/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+
+
+
+             <div class="pe">
+                <img src="riya.png" alt="arjun">
+                <div class="p-name">Riya Bhatia</div>
+                <div class="p-des">Director of Sponsorships</div>
+                <div class="p-sm">
+                  <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+              <div class="pe">
+                  <img src="Tiffany.jpg" alt="arjun">
+                  <div class="p-name">Tiffany</div>
+                  <div class="p-des">Sponsorships</div>
+                  <div class="p-sm">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                  </div>
+                </div>
+                <div class="pe">
+                    <img src="sashv.jpg" alt="arjun">
+                    <div class="p-name">Sash</div>
+                    <div class="p-des">Sponsorships</div>
+                    <div class="p-sm">
+                      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                      <a href="mailto:epsilonhackathon@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </div>
+                  </div>
+
+
+      
+    </div>
+  </div>
+</div>
+</section>
+
+  
+
+
+
+
+<section id="sponsor">
+    <h1 class="spons">Interested in Sponsoring?<br> Check out the link below and find an option that suits you!</h1>
+    <a class="pdf" href="pros.pdf" target="_blank">Sponsorship Options</a>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Schedule Part-->
+  <!--
+        <section id="Schedule">
+          <h1 class="ScheduleHeading">Schedule</h1>
+
+            <ul class="main">
+
+                <li class="date">
+
+                  <h3>MARCH 14</h3>
+
+                  <p>Epsilon Hacks</p>
+
+                </li>
+
+                <li class= "events">
+
+                  <ul class="events-detail">
+
+                    <li>
+
+                      <a href="#">
+
+                        <span class="event-time">8:00 AM - </span>
+
+                        <span class="event-name">Check-in Start</span>
+
+                        <br />
+
+                        <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+
+                      </a>
+
+                    </li>
+                     
+                     <li>
+
+                        <a href="#">
+
+                            <span class="event-time">8:00 AM - </span>
+    
+                            <span class="event-name">Check-in Start</span>
+    
+                            <br />
+    
+                            <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+    
+                          </a>
+    
+                    </li>
+                    
+                     <li>
+                        <a href="#">
+
+                            <span class="event-time">8:00 AM - </span>
+    
+                            <span class="event-name">Check-in Start</span>
+    
+                            <br />
+    
+                            <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+    
+                          </a>
+    
+
+                    </li>
+                    
+                     <li>
+
+                        <a href="#">
+
+                            <span class="event-time">8:00 AM - </span>
+    
+                            <span class="event-name">Check-in Start</span>
+    
+                            <br />
+    
+                            <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+    
+                          </a>
+    
+                      </a>
+
+                    </li>
+                    
+                     <li>
+
+                        <a href="#">
+
+                            <span class="event-time">8:00 AM - </span>
+    
+                            <span class="event-name">Check-in Start</span>
+    
+                            <br />
+    
+                            <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+    
+                          </a>
+    
+
+                    </li>
+
+                  </ul>  
+                
+                </li>
+                       
+                
+                
+                  <li class="date">
+                  <h3>MARCH 15</h3>
+                  <p>Epsilon Hacks</p>
+                </li>
+                <li class= "events cf">
+                  <ul class="events-detail">
+                    <li>
+                        <a href="#">
+
+                            <span class="event-time">8:00 AM - </span>
+    
+                            <span class="event-name">Check-in Start</span>
+    
+                            <br />
+    
+                            <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+    
+                          </a>
+    
+                    </li>
+                     
+                     <li>
+                        <a href="#">
+
+                            <span class="event-time">8:00 AM - </span>
+    
+                            <span class="event-name">Check-in Start</span>
+    
+                            <br />
+    
+                            <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+    
+                          </a>
+    
+                    </li>
+                    
+                     <li>
+                        <a href="#">
+
+                            <span class="event-time">8:00 AM - </span>
+    
+                            <span class="event-name">Check-in Start</span>
+    
+                            <br />
+    
+                            <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+    
+                          </a>
+    
+                    </li>
+                    
+                     <li>
+                        <a href="#">
+
+                            <span class="event-time">8:00 AM - </span>
+    
+                            <span class="event-name">Check-in Start</span>
+    
+                            <br />
+    
+                            <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+    
+                          </a>
+    
+                    </li>
+                    
+                     <li>
+                        <a href="#">
+
+                            <span class="event-time">8:00 AM - </span>
+    
+                            <span class="event-name">Check-in Start</span>
+    
+                            <br />
+    
+                            <span class="event-location">6600 Dumbarton Circle, Fremont, California</span>
+    
+                          </a>
+    
+                    </li>
+                  </ul>  
+                  
+                
+                </li>
+                       
+              </ul>  
+            -->
+
+              <div id="social">
+                  <p>Follow us on social media to recieve updates</p>
+                  <a class="facebookBtn smGlobalBtn" href="https://www.linkedin.com/company/epsilon-hacks/about/" target="_blank"></a>
+                  <a class="instagramBtn smGlobalBtn" href="https://www.instagram.com/epsilonhackathon/" target="_blank"></a>
+                  <a class="linkedinBtn smGlobalBtn" href="https://www.facebook.com/epsilonhacks/" target="_blank"></a>
+                  <a class="emailBtn smGlobalBtn" href="mailto:epsilonhackathon@gmail.com" target="_blank"></a>
+                </div>
+  
+  
+  
+          
+      </section>
+        <script src="index.js"></script>
+    </body>
+</html>
